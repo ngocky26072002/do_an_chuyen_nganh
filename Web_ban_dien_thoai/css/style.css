@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wraper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+    background-image: url("../images/OIP.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+    border: 1px solid #3366ff;
+    height: 180px;
+    width: 100%;
+}
+.menu{
+    border: 1px solid #66ffcc;
+    height: 50px;
+    width: 100%;
+    background: #666666;
+}
+ul.list_menu {
+    padding: 0;
+    margin: 0 auto;
+    width: 60%;
+    border: 1px solid #000;
+    list-style: none;
+    line-height: 20px;
+
+}
+ul.list_menu li {
+    float: left;
+    padding: 5px;
+    margin: 7px;
+}
+ul.list_menu li:hover {
+    background: black;
+}
+ul.list_menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+#main{
+    border: 1px solid #40ff00;
+    height: auto;
+    width: 100%;
+    
+}
+.sidebar{
+    border: 1px solid #e1ff00af;
+    height: 390px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+    background: #bfbfbf;
+}
+ul.list_sidebar {
+    padding: 0;
+    margin: 0;
+    width: 66%;
+    border: 1px solid #840f0f;
+    list-style: none;
+    line-height: 27px;
+}
+ul.list_sidebar li {
+    float: left;
+    padding: 5px;
+    margin: 7px;
+}
+ul.list_sidebar li:hover {
+    background-color: dimgray;
+}
+ul.list_sidebar li a {
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    display: block;
+}
+
+
+.main_content{
+    border: 1px solid #0004ffaf;
+    height: auto;
+    width: 77%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+}
+ul.product_list li img{
+    width: 100%;
+}
+ul.product_list li {
+    width: 15%;
+    border: 1px dashed black;
+    margin: 5px;
+    float: left;
+    background: #f2f2f2;
+    height: 247px;
+}
+ul.product_list li a {
+    text-decoration: none;
+}
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+p.title_product {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+p.price_product {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.clear{
+    clear: both;
+}
+
+.footer{
+    border: 1px solid #8600b3;
+    height: 90;
+    width: 100%;
+    background: #666666;
+}
+p.footer_copyright {
+    text-align: left;
+    color: black;
+}
